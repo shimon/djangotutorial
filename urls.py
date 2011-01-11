@@ -12,7 +12,7 @@ urlpatterns = patterns('',
     # to INSTALLED_APPS to enable admin documentation:
     # (r'^admin/doc/', include('django.contrib.admindocs.urls')),
 
-    url(r'^$', 'mysite.polls.views.main_index'),
+    url(r'^$', 'polls.views.main_index'),
 
     # Uncomment the next line to enable the admin:
     (r'^admin/', include(admin.site.urls)),
